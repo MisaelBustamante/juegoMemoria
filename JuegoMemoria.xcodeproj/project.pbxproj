@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1B3DEE841C6646C600760B94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3DEE831C6646C600760B94 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		1B3DEE7E1C6646C600760B94 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,8 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B3DEE801C6646C600760B94 /* JuegoMemoria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JuegoMemoria; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B3DEE831C6646C600760B94 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1B3DEE801C6646C600760B94 /* JuegoMemoria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = JuegoMemoria; path = "/Users/dev02/Desktop/curso swift/JuegoMemoria/build/Debug/JuegoMemoria"; sourceTree = "<absolute>"; };
+		1B3DEE8A1C6646F300760B94 /* JuegoMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JuegoMemoria.playground; path = ../JuegoMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +37,8 @@
 		1B3DEE771C6646C600760B94 = {
 			isa = PBXGroup;
 			children = (
-				1B3DEE821C6646C600760B94 /* JuegoMemoria */,
-				1B3DEE811C6646C600760B94 /* Products */,
+				1B3DEE8A1C6646F300760B94 /* JuegoMemoria.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		1B3DEE811C6646C600760B94 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B3DEE801C6646C600760B94 /* JuegoMemoria */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1B3DEE821C6646C600760B94 /* JuegoMemoria */ = {
-			isa = PBXGroup;
-			children = (
-				1B3DEE831C6646C600760B94 /* main.swift */,
-			);
-			path = JuegoMemoria;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +84,7 @@
 				en,
 			);
 			mainGroup = 1B3DEE771C6646C600760B94;
-			productRefGroup = 1B3DEE811C6646C600760B94 /* Products */;
+			productRefGroup = 1B3DEE771C6646C600760B94;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +98,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B3DEE841C6646C600760B94 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
