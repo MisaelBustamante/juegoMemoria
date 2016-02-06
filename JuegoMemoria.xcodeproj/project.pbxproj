@@ -19,8 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B3DEE801C6646C600760B94 /* JuegoMemoria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = JuegoMemoria; path = "/Users/dev02/Desktop/curso swift/JuegoMemoria/build/Debug/JuegoMemoria"; sourceTree = "<absolute>"; };
-		1B3DEE8A1C6646F300760B94 /* JuegoMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JuegoMemoria.playground; path = ../JuegoMemoria.playground; sourceTree = "<group>"; };
+		1B3DEE8B1C664D2900760B94 /* JuegoMemoria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = JuegoMemoria; path = "/Users/dev02/Desktop/curso swift/JuegoMemoria/build/Debug/JuegoMemoria"; sourceTree = "<absolute>"; };
+		1B3DEE8C1C664DB000760B94 /* juegoMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = juegoMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		1B3DEE771C6646C600760B94 = {
 			isa = PBXGroup;
 			children = (
-				1B3DEE8A1C6646F300760B94 /* JuegoMemoria.playground */,
+				1B3DEE8C1C664DB000760B94 /* juegoMemoria.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +58,7 @@
 			);
 			name = JuegoMemoria;
 			productName = JuegoMemoria;
-			productReference = 1B3DEE801C6646C600760B94 /* JuegoMemoria */;
+			productReference = 1B3DEE8B1C664D2900760B94 /* JuegoMemoria */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -217,6 +217,7 @@
 				1B3DEE891C6646C600760B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
